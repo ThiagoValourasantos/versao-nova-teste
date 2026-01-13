@@ -1,0 +1,5 @@
+{
+  "name": "Agentic RFP",
+  "description": "An application to simulate the RFP analysis and evaluation flow using mocked data, featuring a modern interface, complete navigation, full auditing, and state preservation.",
+  "requestFramePermissions": []
+}

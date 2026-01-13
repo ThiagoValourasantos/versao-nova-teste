@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic RFP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-blue': '#0078d4',
+              'brand-green': '#107c10',
+              'brand-purple': '#5c2d91',
+              'light-blue': '#eff6fc',
+              'light-green': '#f1f9f1',
+              'light-purple': '#f8f5fc',
+              'neutral-bg': '#f3f4f6',
+            },
+            animation: {
+              'progress': 'progress 1s linear infinite'
+            },
+            keyframes: {
+              progress: {
+                '0%': { transform: ' translateX(-100%)' },
+                '100%': { transform: ' translateX(100%)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body class="bg-neutral-bg">
+    <div id="root"></div>
+</body>
+</html>
